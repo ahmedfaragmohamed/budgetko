@@ -6,11 +6,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-          child: Text(
-        "Login",
-        style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
-      )),
+      body: Center(child: Image.asset("assets/icons/logo.png")),
     );
   }
 }

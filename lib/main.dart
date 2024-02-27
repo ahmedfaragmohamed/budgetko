@@ -1,4 +1,6 @@
+import 'package:budgetko/screens/home_screen.dart';
 import 'package:budgetko/screens/login_screen.dart';
+import 'package:budgetko/screens/register_screen.dart';
 import 'package:budgetko/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -11,8 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        useMaterial3: true,
+      ),
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),
+      // home: HomeScreen(),
     );
   }
 }

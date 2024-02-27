@@ -67,6 +67,7 @@ flutter:
     - assets/images/
     - assets/categories_icon/
     - assets/shops_icons/
+    - assets/icons/nav_bar_icon/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

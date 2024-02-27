@@ -1,8 +1,10 @@
-import 'package:budgetko/screens/home_screen.dart';
+import 'package:budgetko/nav_bar_screens/home_screen.dart';
 import 'package:budgetko/screens/login_screen.dart';
 import 'package:budgetko/screens/register_screen.dart';
 import 'package:budgetko/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'nav_bar_screens/nav_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
-      // home: HomeScreen(),
+      home: NavBar(),
     );
   }
 }
